@@ -1,0 +1,22 @@
+.header {
+    font-size: 48px;
+}
+
+.title {
+    color:#6394BC;
+    font-size: 64px;
+    text-shadow: 1px 3px 6px grey;
+}
+
+.wrapper-cont {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.landing-image {
+    border-radius: 10px;
+    aspect-ratio: 4 / 3 !important;
+    width: 600px;
+}
+
