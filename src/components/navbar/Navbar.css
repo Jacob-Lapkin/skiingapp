@@ -1,0 +1,28 @@
+.navlog-wrapper {
+    width: 75px;
+    min-height: 95vh;
+    border-radius: 0px ;
+    position: fixed;
+    top: 2%;
+    left: 10px;
+    z-index: 50;
+    animation-name: navbar;
+    animation-duration:4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 3px 7px grey;
+    background-color: #6394BC;
+    border-radius: 20px;
+}
+
+.active {
+    background-color: #d8b85f !important;
+    border-radius: 10px !important;
+    color: white !important;
+}
+
+.nav-item:hover {
+    background-color: #729ACB;
+    border-radius: 10px;
+    color:white;
+}
