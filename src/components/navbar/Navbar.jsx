@@ -1,14 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css'
+import { useLocation } from "react-router-dom";
 
 function Navbar() {
-
+  const curLoc = useLocation()
     return (
         <div className="d-flex justify-content-start gap-4 flex-column align-items-center navlog-wrapper">
           <div className="pt-2">
             <Link to="/home" className="nav-link text-white fw-bold">
-              <i className="fa fa-home fa-2x active nav-item p-2" aria-hidden="true"></i>
+              <i className={curLoc.pathname === "/home"?"fa fa-home fa-2x active nav-item p-2":"fa fa-home fa-2x nav-item p-2"} aria-hidden="true"></i>
             </Link>
           </div>
           <div >

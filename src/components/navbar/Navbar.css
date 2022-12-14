@@ -1,10 +1,10 @@
 .navlog-wrapper {
     width: 75px;
-    min-height: 95vh;
+    min-height: 100vh;
     border-radius: 0px ;
     position: fixed;
-    top: 2%;
-    left: 10px;
+    top: 0%;
+    left: 0px;
     z-index: 50;
     animation-name: navbar;
     animation-duration:4s;
@@ -12,7 +12,6 @@
     animation-iteration-count: infinite;
     box-shadow: 0px 3px 7px grey;
     background-color: #6394BC;
-    border-radius: 20px;
 }
 
 .active {

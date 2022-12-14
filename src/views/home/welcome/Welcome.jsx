@@ -10,7 +10,9 @@ function Welcome() {
         <div className="infront">
             <p className="h2 fw-bold">Hello, Jacob</p>
             <p className="mt-2">Welcome back! The ski conditions at home are waiting for you</p>
-            <p className="h3"><span> <i class="fa-solid fa-temperature-three-quarters"></i> </span>25 F in Aspen, CO</p>
+            <p className="h3"><span className="me-3"> <i className="fa-solid fa-temperature-three-quarters"></i> </span>25 F in Aspen, CO</p>
+            <p className="h5"><span className="me-3"> <i className="fa fa-cloud" aria-hidden="true"></i></span>partly cloudy</p>
+
         </div>
         </div>
         </>

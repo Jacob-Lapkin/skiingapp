@@ -2,6 +2,7 @@ import React from "react";
 import Equipmenttemplate from "./Equiptemplate";
 import goggles from "./../../../assets/goggles.jpg";
 import boots from "./../../../assets/boots.jpg";
+import { Link } from "react-router-dom";
 
 
 function Equipment() {
@@ -13,20 +14,26 @@ function Equipment() {
     <p className="fw-bold">My Equipment</p>
     </div>
     <div>
-        <a><i className="fa-solid fa-arrow-right"></i></a>
+        <Link to=""><i className="fa-solid fa-arrow-right"></i></Link>
     </div>
         </div>
-        <div className="row">
-        <div className="col-sm-6 col-md-6 col-lg-4 mt-3">
+        <div className="d-flex flex-row flex-wrap ps-3 pe-3 pb-3 pt-3 gap-4 justify-content-start">
+        <div className="">
         <Equipmenttemplate image={goggles} name="Smith Optic" />
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-4 mt-3">
+        <div className="">
         <Equipmenttemplate image={boots} name="Dalbello boots" />
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-4 mt-3">
+        <div className="">
         <Equipmenttemplate image={goggles} name="Smith Optic" />
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-4 mt-3">
+        <div className="">
+        <Equipmenttemplate image={goggles} name="Smith Optic" />
+        </div>
+        <div className="">
+        <Equipmenttemplate image={goggles} name="Smith Optic" />
+        </div>
+        <div className="">
         <Equipmenttemplate image={goggles} name="Smith Optic" />
         </div>
         </div>
