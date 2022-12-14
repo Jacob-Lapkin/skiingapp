@@ -1,0 +1,25 @@
+.equipment-container {
+    border-radius: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 150px;
+    position: relative;
+}
+
+.iamge-container {
+height: 100% !important;
+width: 100%;
+border-radius: 10px;
+filter: brightness(75%);
+position: absolute;
+top: 0;
+left: 0
+}
+
+.name {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}

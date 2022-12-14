@@ -1,0 +1,27 @@
+.widget-container {
+    border-radius: 10px;
+    padding: 10x;
+    background-image: url("./../../../assets/skiillustration.jpg");
+    height: 100%;
+    filter: brightness(50%);
+    background-position: center;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.infront {
+color: white;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  z-index: 5;
+}
+
+.container {
+    position: relative;
+    height: 200px;
+  }
+  
