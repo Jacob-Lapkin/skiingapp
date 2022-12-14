@@ -3,19 +3,20 @@
     min-height: 100vh;
     border-radius: 0px ;
     position: fixed;
-    top: 0%;
+    top: 75px;
     left: 0px;
     z-index: 50;
     animation-name: navbar;
     animation-duration:4s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    box-shadow: 0px 3px 7px grey;
-    background-color: #6394BC;
+    background-color: #F8F9FA;
+    z-index: 0 !important;
+    /* border-right: solid 1px rgb(179, 179, 179) */
 }
 
 .active {
-    background-color: #d8b85f !important;
+    background-color: #729ACB !important;
     border-radius: 10px !important;
     color: white !important;
 }

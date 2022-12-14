@@ -4,10 +4,12 @@ import './Home.css'
 import Welcome from "./welcome/Welcome";
 import Equipment from "./equipment/Equipment";
 import Buddies from "./buddies/Buddies";
+import Header from "../../components/header/Header";
 
 function Home() {
   return (
     <>
+    <Header/>
     <Navbar/>
     <section className="main-container">
     <div className="row">
